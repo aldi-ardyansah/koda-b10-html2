@@ -1,5 +1,7 @@
-# Creating Chessboard from HTML Table
+# HTML 2
 
-## Image
+## Creating Chessboard from HTML Table
+
+### Image
 
 ![Chessboard](screenshoot.png)
