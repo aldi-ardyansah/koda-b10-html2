@@ -4,4 +4,4 @@
 
 ### Image
 
-![Chessboard](screenshoot.png)
+![Chessboard](recording.gif)
