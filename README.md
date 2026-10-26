@@ -2,6 +2,6 @@
 
 ## Creating Chessboard from HTML Table
 
-### Image
+### Screen Capture
 
 ![Chessboard](recording.gif)
