@@ -1,6 +1,6 @@
 # HTML 2
 
-## Creating Chessboard from HTML Table
+## Creating Chessboard from CSS Inline-Block
 
 ### Screenshoot
 
