@@ -1,222 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>
-            Chessboard
-        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chessboard</title>
+        <style>
+            body {
+                margin: 0;
+            }
+
+            .chessboard {
+                font-size: 0;
+                white-space: nowrap;
+            }
+
+            .white,
+            .black {
+                display: inline-block;
+                width: 80px;
+                height: 80px;
+            }
+
+            .white {
+                background-color: white;
+            }
+
+            .black {
+                background-color: black;
+            }
+        </style>
     </head>
     <body>
-        <table border="1" width="100%">
-            <tbody>
-                <tr height="150px">
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                </tr>
-                <tr height="150px">
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                </tr>
-                <tr height="150px">
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                </tr>
-                <tr height="150px">
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                </tr>
-                <tr height="150px">
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                </tr>
-                <tr height="150px">
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                </tr>
-                <tr height="150px">
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                </tr>
-                <tr height="150px">
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                    <td bgcolor="black">
-                        
-                    </td>
-                    <td bgcolor="white">
-                        
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="chessboard">
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+        <div class="chessboard">
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>
+        <div class="chessboard">
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+        <div class="chessboard">
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>
+        <div class="chessboard">
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+        <div class="chessboard">
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>
+        <div class="chessboard">
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+        <div class="chessboard">
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>
     </body>
 </html>
